@@ -133,7 +133,7 @@ public class RemoveStaff extends javax.swing.JFrame {
 
         // Prepare the SQL statement
        // String updateSql = "UPDATE books SET copies = copies - ? WHERE book_id = ? AND name = ?";
-        String insertSql = "REMOVE FROM staff WHERE staff_id = ?";
+        String insertSql = "DELETE FROM staff WHERE staff_id = ?";
 
         PreparedStatement statement;
 
