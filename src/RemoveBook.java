@@ -147,7 +147,7 @@ public class RemoveBook extends javax.swing.JFrame {
 
         // Prepare the SQL statement
         String updateSql = "UPDATE books SET copies = copies - ? WHERE book_id = ? AND name = ?";
-        String insertSql = "REMOVE FROM books WHERE book_id=?";
+        String insertSql = "DELETE FROM books WHERE book_id=?";
 
         PreparedStatement statement;
 
