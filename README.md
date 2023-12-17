@@ -51,7 +51,7 @@ The system utilizes three primary tables:
 1. Clone the repository.
 2. Import the project into NetBeans.
 3. Configure the database connection within the Java code (refer to project comments for connection details).
-4. Run the `Main.java` file.
+4. Run the `LoginPage.java` file.
 
 **MySQL CODE**
 **copy this code mysql workbench or commandpromtline**
